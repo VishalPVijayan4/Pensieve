@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    // Do not add org.jetbrains.kotlin.android explicitly; Kotlin is provided via Compose plugin in this setup.
     alias(libs.plugins.kotlin.compose)
 }
 
